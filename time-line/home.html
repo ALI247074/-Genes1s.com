@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TimeLine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+    <h1>Timeline</h1>
+    <p>Genesis for designing</p>
+</div>
+
+<!-- Hero Image -->
+<div class="hero">
+    <img src="https://c4.wallpaperflare.com/wallpaper/88/698/360/space-black-hole-interstellar-planet-wallpaper-preview.jpg" alt="Hero Image" class="hero-img">
+</div>
+
+<!-- Glass Info Boxes -->
+<div class="glass-container">
+    <div class="glass-box">
+        <h2>Luxury designing</h2>
+        <p>during 1 - 2 month for big projects</p>
+    </div>
+    <div class="glass-box">
+        <h2>modern designing</h2>
+        <p>four weeks or one and half month for normal projects</p>
+    </div>
+    <div class="glass-box">
+        <h2>classic designing</h2>
+        <p>during around 2 - 3 weeks for simple projets</p>
+    </div>
+</div>
+<button id="backBtn" class="glass-button" onclick="../home.html">
+  &#8592; <!-- سهم رجوع ← -->
+</button>
+
+ 
+</div>
+<script src="script.js"></script>
+  <script>
+  document.getElementById("backBtn").addEventListener("click", function (e) {
+    e.preventDefault();
+    // بدل الرابط حسب المكان اللي بدك ترجع عليه
+    window.location.href = "../index.html"; 
+  });
+</script>
+</body>
+</html>
