@@ -117,8 +117,8 @@ body {
   transition: transform 0.3s ease, background-color 0.3s ease;
   user-select: none;
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 60px;
+  left: 25px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -146,6 +146,7 @@ body {
         margin-top: -190px;
         z-index: -1;
         margin-left: 20px;
+        overflow-x: hidden;
     }
     .glass-box {
         width: 90%;
@@ -161,4 +162,5 @@ body {
         margin: 30px 5px;
         gap: 15px;
     }
+    
 }
